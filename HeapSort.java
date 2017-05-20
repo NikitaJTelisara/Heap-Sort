@@ -13,8 +13,8 @@ public class HeapSort {
 
     public static void sort(int arr[])
     {
-        heapify(arr);  // heapify gives desc order 345,98,43,76,11,32,8,4,5,2,6,22,
-        for (int i = N; i > 0; i--) // change to asc order 2,4,5,6,8,11,22,32,43,76,98,345,
+        heapify(arr);  
+        for (int i = N; i > 0; i--) 
         {
             swap(arr,0, i);
             N = N-1;
